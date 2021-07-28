@@ -6,7 +6,7 @@
   font-size: 16px;
   line-height: 1.8;
   border: none;
-  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+  box-shadow: 0 4px 4px rgb (0 0 0 / 15%);
   transition: background-color 250ms var(--cubic);
   border-radius: 4px;
   align-items: center;
@@ -15,6 +15,11 @@
   padding-bottom: 10px;
   padding-left: 29px;
   cursor: pointer;
+
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
 }
 
 .svg-modal-icon {
@@ -22,10 +27,6 @@
   height: 40%;
 }
 
-.modal-footer-wrapper-button:focus,
-.modal-footer-wrapper-button:hover {
-  background-color: var(--accent-color);
-}
 .modal {
   position: absolute;
   left: 50%;
