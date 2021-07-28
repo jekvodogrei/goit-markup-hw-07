@@ -14,11 +14,19 @@
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
 
-.client-item:hover,
-.client-item:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+
+  &:hover,
+  &:hover .client-item-icon,
+  &:focus,
+  &S:focus .client-item-icon {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .client-list-link {
@@ -34,20 +42,12 @@
   fill: #afb1b8;
 }
 
-.client-item:hover,
-.client-item:hover .client-item-icon,
-.client-item:focus,
-.client-item:focus .client-item-icon {
-  fill: var(--accent-color);
-  color: var(--accent-color);
-}
-
 .social-list-link.theme-dark {
   background-color: rgba(255, 255, 255, 0.1);
-}
 
-.social-list-link.theme-dark:hover {
-  background-color: var(--accent-color);
+  &:hover {
+    background-color: var(--accent-color);
+  }
 }
 
 .social-list-icon.theme-dark {

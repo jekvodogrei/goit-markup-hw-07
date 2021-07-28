@@ -16,10 +16,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.menu-contacts-link:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .menu-item:not(:last-child) {

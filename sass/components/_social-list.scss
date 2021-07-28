@@ -26,12 +26,12 @@
   height: 44px;
   border-radius: 50%;
   background-color: var(--secondary-color);
-}
 
-.social-list-link:hover,
-.social-list-link:focus,
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: #ffffff;
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus,
+  &:hover .social-list-icon,
+  &:focus .social-list-icon {
+    fill: #ffffff;
+    background-color: var(--accent-color);
+  }
 }
