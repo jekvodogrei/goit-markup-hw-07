@@ -1,0 +1,65 @@
+.menu-contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-contact-link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.mail-link,
+.tel-link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.mail-link:hover .contact-link-item,
+.mail-link:focus .contact-link-item {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.mail-link.header-link {
+  display: flex;
+  align-items: center;
+}
+
+.tel-link.header-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  color: var(--text-color);
+  fill: var(--text-color);
+}
+
+.tel-link:hover,
+.tel-link:focus,
+.tel-link:hover .contact-link-item,
+.tel-link:focus .contact-link-item {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.contact-link-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}

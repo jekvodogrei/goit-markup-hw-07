@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.menu.list {
+  cursor: pointer;
+}
+
+.menu-contacts-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-contacts-link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}

@@ -1,0 +1,9 @@
+.team-list-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-list-link-wrapper:hover .overlay,
+.team-list-link-wrapper:focus .overlay {
+  transform: translateY(0%);
+}
