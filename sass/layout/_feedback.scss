@@ -8,7 +8,7 @@
   }
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -44,17 +44,17 @@
   }
 }
 
-.mail-link.header-link {
+.mail-link.header__link {
   display: flex;
   align-items: center;
 }
 
-.tel-link.header-link {
+.tel-link.header__link {
   display: flex;
   align-items: center;
 }
 
-.header-link {
+.header__link {
   color: var(--text-color);
   fill: var(--text-color);
 }

@@ -531,7 +531,7 @@ body {
   margin-right: 30px;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -565,17 +565,17 @@ body {
   fill: var(--accent-color);
 }
 
-.mail-link.header-link {
+.mail-link.header__link {
   display: flex;
   align-items: center;
 }
 
-.tel-link.header-link {
+.tel-link.header__link {
   display: flex;
   align-items: center;
 }
 
-.header-link {
+.header__link {
   color: var(--text-color);
   fill: var(--text-color);
 }
@@ -760,7 +760,7 @@ body {
   right: auto;
 }
 
-.menu-link {
+.menu__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -769,17 +769,17 @@ body {
   color: var(--title-color);
 }
 
-.menu-link:hover, .menu-linkk:focus {
+.menu__link:hover, .menu__linkk:focus {
   color: var(--accent-color);
 }
 
-.menu-link.current {
+.menu__link.current {
   color: var(--accent-color);
   background-image: url();
   position: relative;
 }
 
-.menu-link.current::after {
+.menu__link.current::after {
   content: '';
   display: block;
   width: 100%;
