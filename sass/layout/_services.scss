@@ -1,4 +1,4 @@
-.services-container {
+.services__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -9,11 +9,11 @@
   font-family: var(--main-font);
 }
 
-.serveces-box {
+.serveces__box {
   width: 270px;
 }
 
-.serveces-box-link {
+.serveces__box-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,7 @@
   border-radius: 4px;
 }
 
-.serveces-box-item {
+.serveces__box-item {
   width: 70px;
   height: 70px;
 }

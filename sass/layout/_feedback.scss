@@ -44,17 +44,17 @@
   }
 }
 
-.mail-link.header__link {
+.mail-link.color-link {
   display: flex;
   align-items: center;
 }
 
-.tel-link.header__link {
+.tel-link.color-link {
   display: flex;
   align-items: center;
 }
 
-.header__link {
+.color-link {
   color: var(--text-color);
   fill: var(--text-color);
 }

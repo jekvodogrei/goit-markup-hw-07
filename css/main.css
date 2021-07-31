@@ -84,7 +84,7 @@ body {
   padding-right: 15px;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   font-family: var(--main-font);
   font-weight: 900;
@@ -141,7 +141,7 @@ body {
   color: var(--secondary-color);
 }
 
-.hero-btn {
+.hero__title-btn {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -289,6 +289,8 @@ body {
 }
 
 .modal-form-btn {
+  display: block;
+  margin: auto;
   width: 200px;
   height: 50px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -300,6 +302,7 @@ body {
 }
 
 .modal-footer-wrapper-button {
+  display: flex;
   display: inline-flex;
   color: var(--secondary-color);
   background-color: var(--button-hover-color);
@@ -565,17 +568,17 @@ body {
   fill: var(--accent-color);
 }
 
-.mail-link.header__link {
+.mail-link.color-link {
   display: flex;
   align-items: center;
 }
 
-.tel-link.header__link {
+.tel-link.color-link {
   display: flex;
   align-items: center;
 }
 
-.header__link {
+.color-link {
   color: var(--text-color);
   fill: var(--text-color);
 }
@@ -853,16 +856,16 @@ body {
   background-color: var(--team-bg);
 }
 
+.portfolio-btn:hover, .portfolio-btn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
 .portfolio-btn-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.portfolio-btn-list:hover, .portfolio-btn-listo:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .button-portfolio:not(:last-child) {
@@ -907,7 +910,7 @@ body {
   transform: translateX(0%);
 }
 
-.services-container {
+.services__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -918,11 +921,11 @@ body {
   font-family: var(--main-font);
 }
 
-.serveces-box {
+.serveces__box {
   width: 270px;
 }
 
-.serveces-box-link {
+.serveces__box-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -933,7 +936,7 @@ body {
   border-radius: 4px;
 }
 
-.serveces-box-item {
+.serveces__box-item {
   width: 70px;
   height: 70px;
 }
